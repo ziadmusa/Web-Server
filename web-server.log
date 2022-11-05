@@ -1,0 +1,222 @@
+LOG:  web-server starting at port 6060 pid 1857
+LOG:  web-server starting at port 6060 pid 1863
+ERROR:     system call :bind Errno=98 exiting pid=1863
+LOG:  Request: 1    Hit: 1    	GET /index.html HTTP/1.1**Host: 192.168.1.104:6060**Connection: keep-alive**Upgrade-Insecure-Requests: 1**User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36**Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8**Accept-Encoding: gzip, deflate, sdch**Accept-Language: ar,en-US;q=0.8,en;q=0.6****
+NOTFOUND: Req: 1    Hit: 1    	Failed to open file index.html
+LOG:  Request: 2    Hit: 2    	GET /favicon.ico HTTP/1.1**Host: 192.168.1.104:6060**Connection: keep-alive**User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36**Accept: image/webp,image/*,*/*;q=0.8**Referer: http://192.168.1.104:6060/index.html**Accept-Encoding: gzip, deflate, sdch**Accept-Language: ar,en-US;q=0.8,en;q=0.6****
+NOTFOUND: Req: 2    Hit: 2    	Failed to open file favicon.ico
+LOG:  Request: 1    Hit: 3    	GET /index.html HTTP/1.1**Host: 192.168.1.104:6060**Connection: keep-alive**Upgrade-Insecure-Requests: 1**User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36**Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8**Accept-Encoding: gzip, deflate, sdch**Accept-Language: ar,en-US;q=0.8,en;q=0.6****
+LOG:  Request: 1    Hit: 3    	SEND: index.html
+LOG:  Request: 1    Hit: 3    	Header: HTTP/1.1 200 OK
+Server: web-server/24.0
+Content-Length: 243
+Connection: close
+Content-Type: text/html
+
+
+LOG:  Request: 1    Hit: 3    	Sending the file ...
+LOG:  Request: 1    		File size 243
+LOG:  Request: 1    Hit: 3    	SENT Requested file!
+LOG:  Request: 2    Hit: 4    	GET /Koala.jpg HTTP/1.1**Host: 192.168.1.104:6060**Connection: keep-alive**User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36**Accept: image/webp,image/*,*/*;q=0.8**Referer: http://192.168.1.104:6060/index.html**Accept-Encoding: gzip, deflate, sdch**Accept-Language: ar,en-US;q=0.8,en;q=0.6****
+LOG:  Request: 2    Hit: 4    	SEND: Koala.jpg
+LOG:  Request: 2    Hit: 4    	Header: HTTP/1.1 200 OK
+Server: web-server/24.0
+Content-Length: 780831
+Connection: close
+Content-Type: image/jpg
+
+
+LOG:  Request: 2    Hit: 4    	Sending the file ...
+LOG:  Request: 2    		File size 780831
+LOG:  Request: 2    Hit: 4    	SENT Requested file!
+FORBIDEN: Req: 1    Hit: 5    	Failed to read browser request Øi1»_ËÏãr´O”¦Ê}½’æ<N¢<}5L±!«Pú|nnÇóíBÈò…‰¬ëêøzh“3iÓÃí#üÿ
+FORBIDEN: Req: 4    Hit: 6    	Failed to read browser request Øi1»_ËÏãr´O”¦Ê}½’æ<N¢<}5L±!«Pú|nnÇóíBÈò…‰¬ëêøzh“3iÓÃí#üÿ
+LOG:  Request: 5    Hit: 7    	GET /index.html HTTP/1.1**Host: 192.168.1.104:6060**Connection: keep-alive**Cache-Control: max-age=0**Upgrade-Insecure-Requests: 1**User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36**Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8**Accept-Encoding: gzip, deflate, sdch**Accept-Language: ar,en-US;q=0.8,en;q=0.6****
+LOG:  Request: 5    Hit: 7    	SEND: index.html
+LOG:  Request: 5    Hit: 7    	Header: HTTP/1.1 200 OK
+Server: web-server/24.0
+Content-Length: 243
+Connection: close
+Content-Type: text/html
+
+
+LOG:  Request: 5    Hit: 7    	Sending the file ...
+LOG:  Request: 5    		File size 243
+LOG:  Request: 5    Hit: 7    	SENT Requested file!
+LOG:  Request: 1    Hit: 8    	GET /Koala.jpg HTTP/1.1**Host: 192.168.1.104:6060**Connection: keep-alive**User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36**Accept: image/webp,image/*,*/*;q=0.8**Referer: http://192.168.1.104:6060/index.html**Accept-Encoding: gzip, deflate, sdch**Accept-Language: ar,en-US;q=0.8,en;q=0.6****
+LOG:  Request: 1    Hit: 8    	SEND: Koala.jpg
+LOG:  Request: 1    Hit: 8    	Header: HTTP/1.1 200 OK
+Server: web-server/24.0
+Content-Length: 780831
+Connection: close
+Content-Type: image/jpg
+
+
+LOG:  Request: 1    Hit: 8    	Sending the file ...
+LOG:  Request: 1    		File size 780831
+LOG:  Request: 1    Hit: 8    	SENT Requested file!
+FORBIDEN: Req: 2    Hit: 9    	Failed to read browser request Øi1»_ËÏãr´O”¦Ê}½’æ<N¢<}5L±!«Pú|nnÇóíBÈò…‰¬ëêøzh“3iÓÃí#üÿ
+LOG:  Request: 4    Hit: 10   	GET /Koala.jpg HTTP/1.1**Host: 192.168.1.104:6060**Connection: keep-alive**Upgrade-Insecure-Requests: 1**User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36**Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8**Accept-Encoding: gzip, deflate, sdch**Accept-Language: ar,en-US;q=0.8,en;q=0.6****
+LOG:  Request: 4    Hit: 10   	SEND: Koala.jpg
+LOG:  Request: 4    Hit: 10   	Header: HTTP/1.1 200 OK
+Server: web-server/24.0
+Content-Length: 780831
+Connection: close
+Content-Type: image/jpg
+
+
+LOG:  Request: 4    Hit: 10   	Sending the file ...
+LOG:  Request: 4    		File size 780831
+LOG:  Request: 4    Hit: 10   	SENT Requested file!
+FORBIDEN: Req: 1    Hit: 11   	Failed to read browser request Øi1»_ËÏãr´O”¦Ê}½’æ<N¢<}5L±!«Pú|nnÇóíBÈò…‰¬ëêøzh“3iÓÃí#üÿ
+FORBIDEN: Req: 2    Hit: 12   	Failed to read browser request GET /index.html
+LOG:  Request: 1    Hit: 13   	GET /web-server.c HTTP/1.1**Host: 192.168.1.104:6060**Connection: keep-alive**Upgrade-Insecure-Requests: 1**User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36**Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8**Accept-Encoding: gzip, deflate, sdch**Accept-Language: ar,en-US;q=0.8,en;q=0.6****
+FORBIDEN: Req: 1    Hit: 13   	File extension type not supported GET /web-server.c
+FORBIDEN: Req: 2    Hit: 14   	Failed to read browser request GET /web-server.c
+FORBIDEN: Req: 4    Hit: 15   	Failed to read browser request GET /web-server.c
+LOG:  Request: 9    Hit: 16   	GET /index.html HTTP/1.1**Host: 192.168.1.104:6060**Connection: keep-alive**Cache-Control: max-age=0**Upgrade-Insecure-Requests: 1**User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36**Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8**Accept-Encoding: gzip, deflate, sdch**Accept-Language: ar,en-US;q=0.8,en;q=0.6****
+LOG:  Request: 9    Hit: 16   	SEND: index.html
+LOG:  Request: 9    Hit: 16   	Header: HTTP/1.1 200 OK
+Server: web-server/24.0
+Content-Length: 243
+Connection: close
+Content-Type: text/html
+
+
+LOG:  Request: 9    Hit: 16   	Sending the file ...
+LOG:  Request: 9    		File size 243
+LOG:  Request: 9    Hit: 16   	SENT Requested file!
+LOG:  Request: 1    Hit: 17   	GET /Koala.jpg HTTP/1.1**Host: 192.168.1.104:6060**Connection: keep-alive**User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36**Accept: image/webp,image/*,*/*;q=0.8**Referer: http://192.168.1.104:6060/index.html**Accept-Encoding: gzip, deflate, sdch**Accept-Language: ar,en-US;q=0.8,en;q=0.6****
+LOG:  Request: 1    Hit: 17   	SEND: Koala.jpg
+LOG:  Request: 1    Hit: 17   	Header: HTTP/1.1 200 OK
+Server: web-server/24.0
+Content-Length: 780831
+Connection: close
+Content-Type: image/jpg
+
+
+LOG:  Request: 1    Hit: 17   	Sending the file ...
+LOG:  Request: 1    		File size 780831
+LOG:  Request: 1    Hit: 17   	SENT Requested file!
+LOG:  Request: 4    Hit: 18   	GET / HTTP/1.1**Host: 192.168.1.104:6060**Connection: keep-alive**Upgrade-Insecure-Requests: 1**User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36**Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8**Accept-Encoding: gzip, deflate, sdch**Accept-Language: ar,en-US;q=0.8,en;q=0.6****
+LOG:  Request: 4    Hit: 18   	SEND: index.html
+LOG:  Request: 4    Hit: 18   	Header: HTTP/1.1 200 OK
+Server: web-server/24.0
+Content-Length: 243
+Connection: close
+Content-Type: text/html
+
+
+LOG:  Request: 4    Hit: 18   	Sending the file ...
+LOG:  Request: 4    		File size 243
+LOG:  Request: 4    Hit: 18   	SENT Requested file!
+LOG:  Request: 1    Hit: 19   	GET /Koala.jpg HTTP/1.1**Host: 192.168.1.104:6060**Connection: keep-alive**User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36**Accept: image/webp,image/*,*/*;q=0.8**Referer: http://192.168.1.104:6060/**Accept-Encoding: gzip, deflate, sdch**Accept-Language: ar,en-US;q=0.8,en;q=0.6****
+LOG:  Request: 1    Hit: 19   	SEND: Koala.jpg
+LOG:  Request: 1    Hit: 19   	Header: HTTP/1.1 200 OK
+Server: web-server/24.0
+Content-Length: 780831
+Connection: close
+Content-Type: image/jpg
+
+
+LOG:  Request: 1    Hit: 19   	Sending the file ...
+LOG:  Request: 1    		File size 780831
+LOG:  Request: 1    Hit: 19   	SENT Requested file!
+LOG:  Request: 4    Hit: 20   	GET /Koala.jpg HTTP/1.1**Host: 192.168.1.104:6060**Connection: keep-alive**Upgrade-Insecure-Requests: 1**User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36**Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8**Accept-Encoding: gzip, deflate, sdch**Accept-Language: ar,en-US;q=0.8,en;q=0.6****
+LOG:  Request: 4    Hit: 20   	SEND: Koala.jpg
+LOG:  Request: 4    Hit: 20   	Header: HTTP/1.1 200 OK
+Server: web-server/24.0
+Content-Length: 780831
+Connection: close
+Content-Type: image/jpg
+
+
+LOG:  Request: 4    Hit: 20   	Sending the file ...
+LOG:  Request: 4    		File size 780831
+LOG:  Request: 4    Hit: 20   	SENT Requested file!
+LOG:  Request: 1    Hit: 21   	GET /0.jpg HTTP/1.1**Host: 192.168.1.104:6060**Connection: keep-alive**Upgrade-Insecure-Requests: 1**User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36**Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8**Accept-Encoding: gzip, deflate, sdch**Accept-Language: ar,en-US;q=0.8,en;q=0.6****
+LOG:  Request: 1    Hit: 21   	SEND: 0.jpg
+LOG:  Request: 1    Hit: 21   	Header: HTTP/1.1 200 OK
+Server: web-server/24.0
+Content-Length: 16211
+Connection: close
+Content-Type: image/jpg
+
+
+LOG:  Request: 1    Hit: 21   	Sending the file ...
+LOG:  Request: 1    		File size 16211
+LOG:  Request: 1    Hit: 21   	SENT Requested file!
+FORBIDEN: Req: 4    Hit: 22   	Failed to read browser request <HTML>
+<TITLE>web-server
+</TITLE>
+<BODY BGCOLOR="lightblue">
+<H1>web-server test page</H1>
+<IMG SRC="Koala.jpg">
+<p>
+Looks good! It should prove that web-server works..
+<p>
+Enjoy working with and modifying web-server!
+</table>
+</BODY>
+</HTML>
+ation/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8**Accept-Encoding: gzip, deflate, sdch**Accept-Language: ar,en-US;q=0.8,en;q=0.6****
+LOG:  Request: 1    Hit: 23   	GET / HTTP/1.1**Host: 192.168.1.104:6060**Connection: keep-alive**Upgrade-Insecure-Requests: 1**User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36**Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8**Accept-Encoding: gzip, deflate, sdch**Accept-Language: ar,en-US;q=0.8,en;q=0.6****
+LOG:  Request: 1    Hit: 23   	SEND: index.html
+LOG:  Request: 1    Hit: 23   	Header: HTTP/1.1 200 OK
+Server: web-server/24.0
+Content-Length: 243
+Connection: close
+Content-Type: text/html
+
+
+LOG:  Request: 1    Hit: 23   	Sending the file ...
+LOG:  Request: 1    		File size 243
+LOG:  Request: 1    Hit: 23   	SENT Requested file!
+LOG:  Request: 4    Hit: 24   	GET /Koala.jpg HTTP/1.1**Host: 192.168.1.104:6060**Connection: keep-alive**User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36**Accept: image/webp,image/*,*/*;q=0.8**Referer: http://192.168.1.104:6060/**Accept-Encoding: gzip, deflate, sdch**Accept-Language: ar,en-US;q=0.8,en;q=0.6****
+LOG:  Request: 4    Hit: 24   	SEND: Koala.jpg
+LOG:  Request: 4    Hit: 24   	Header: HTTP/1.1 200 OK
+Server: web-server/24.0
+Content-Length: 780831
+Connection: close
+Content-Type: image/jpg
+
+
+LOG:  Request: 4    Hit: 24   	Sending the file ...
+LOG:  Request: 4    		File size 780831
+LOG:  Request: 4    Hit: 24   	SENT Requested file!
+LOG:  Request: 1    Hit: 25   	GET /index.html HTTP/1.1**Host: 192.168.1.104:6060**Connection: keep-alive**Upgrade-Insecure-Requests: 1**User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36**Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8**Accept-Encoding: gzip, deflate, sdch**Accept-Language: ar,en-US;q=0.8,en;q=0.6****
+LOG:  Request: 1    Hit: 25   	SEND: index.html
+LOG:  Request: 1    Hit: 25   	Header: HTTP/1.1 200 OK
+Server: web-server/24.0
+Content-Length: 243
+Connection: close
+Content-Type: text/html
+
+
+LOG:  Request: 1    Hit: 25   	Sending the file ...
+LOG:  Request: 1    		File size 243
+LOG:  Request: 1    Hit: 25   	SENT Requested file!
+LOG:  Request: 4    Hit: 26   	GET /Koala.jpg HTTP/1.1**Host: 192.168.1.104:6060**Connection: keep-alive**User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36**Accept: image/webp,image/*,*/*;q=0.8**Referer: http://192.168.1.104:6060/index.html**Accept-Encoding: gzip, deflate, sdch**Accept-Language: ar,en-US;q=0.8,en;q=0.6****
+LOG:  Request: 4    Hit: 26   	SEND: Koala.jpg
+LOG:  Request: 4    Hit: 26   	Header: HTTP/1.1 200 OK
+Server: web-server/24.0
+Content-Length: 780831
+Connection: close
+Content-Type: image/jpg
+
+
+LOG:  Request: 4    Hit: 26   	Sending the file ...
+LOG:  Request: 4    		File size 780831
+LOG:  Request: 4    Hit: 26   	SENT Requested file!
+LOG:  Request: 1    Hit: 27   	GET /Koala.jpg HTTP/1.1**Host: 192.168.1.104:6060**Connection: keep-alive**Upgrade-Insecure-Requests: 1**User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36**Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8**Accept-Encoding: gzip, deflate, sdch**Accept-Language: ar,en-US;q=0.8,en;q=0.6****
+LOG:  Request: 1    Hit: 27   	SEND: Koala.jpg
+LOG:  Request: 1    Hit: 27   	Header: HTTP/1.1 200 OK
+Server: web-server/24.0
+Content-Length: 780831
+Connection: close
+Content-Type: image/jpg
+
+
+LOG:  Request: 1    Hit: 27   	Sending the file ...
+LOG:  Request: 1    		File size 780831
+LOG:  Request: 1    Hit: 27   	SENT Requested file!
